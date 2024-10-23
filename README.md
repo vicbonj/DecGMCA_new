@@ -1,5 +1,7 @@
 # DecGMCA
 
+This package is an adaptation in python 3 of the DecGMCA package from https://github.com/CEA-jiangming/DecGMCA
+
 DecGMCA (Deconvolution Generalized Morphological Component Analysis) is a sparsity-based algorithm aiming at solving joint multichannel Deconvolution and Blind Source Separation (DBSS) problem.
 
 *For more details, please refer to the paper **Joint Multichannel Deconvolution and Blind Source Separation** (https://arxiv.org/abs/1703.02650)*
@@ -72,6 +74,7 @@ The alternating projected least-squares is efficient but does not necessarily en
 
 ### Prerequisites
 #### Basic python environment
+
 This package has been tested with python 2.7, some python libraries are required to ensure a correct working:
 - numpy
 - scipy
@@ -221,6 +224,7 @@ The results (mixing matrix A and source matrix S) of the simulation will be all 
 ## Authors
 
 * **Ming Jiang [leo.jiangming@gmail.com](mailto:leo.jiangming@gmail.com)**
+* **Victor Bonjean [victor.bonjean40@gmail.com](mailto:victor.bonjean40@gmail.com)**
 
 <a name="ack"></a>
 ## Acknowledgments
