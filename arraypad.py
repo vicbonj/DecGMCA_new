@@ -1,6 +1,6 @@
 """
     The arraypad module contains a group of functions to pad values onto the edges
-    of an n-dimensional array.
+    of an n-dimensional array. test
     """
 from __future__ import division, absolute_import, print_function
 
